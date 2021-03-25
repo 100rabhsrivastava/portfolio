@@ -912,6 +912,29 @@ section {
   fill: #10fd30;
 }
 
+
+.services .iconbox-lgreen i {
+  color: #800000 ;
+}
+
+.services .iconbox-lgreen:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-lgreen:hover .icon path {
+  fill: #800000 ;
+}
+.services .iconbox-purple i {
+  color: #5B2C6F;
+}
+
+.services .iconbox-purple:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-purple:hover .icon path {
+  fill: #5B2C6F;
+}
 .services .iconbox-teal i {
   color: #11dbcf;
 }
