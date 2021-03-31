@@ -125,9 +125,9 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
   .san{
-    background-color: #10fd30;
+    /* background-color: #10fd30; */
     display: flex !important;
-    padding: 24%;
+    padding: 21%;
   }
 }
 @media screen and (max-width: 390px) {
@@ -135,12 +135,11 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
   .san{
-    background-color: #1028fd;
+    /* background-color: #1028fd; */
    
     display: flex !important;
     padding: 17%;
-    margin-left: -25px !important;
-    margin-right: -15px !important;
+   
   }
 }
 @media screen and (max-width: 320px) {
@@ -148,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
   .san{
-    background-color: #fd105f;
+    /* background-color: #fd105f; */
     display: flex !important;
     padding: 12%;
   }
