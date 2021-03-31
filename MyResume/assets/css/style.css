@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+text-align: justify;
 }
 
 a {
@@ -114,7 +115,45 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  .san{
+    display: flex !important;
+    padding: 18%;
+  }
 }
+@media screen and (max-width: 450px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+  .san{
+    background-color: #10fd30;
+    display: flex !important;
+    padding: 24%;
+  }
+}
+@media screen and (max-width: 390px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+  .san{
+    background-color: #1028fd;
+   
+    display: flex !important;
+    padding: 17%;
+    margin-left: -25px !important;
+    margin-right: -15px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+  .san{
+    background-color: #fd105f;
+    display: flex !important;
+    padding: 12%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Header
